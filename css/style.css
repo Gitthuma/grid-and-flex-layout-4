@@ -37,3 +37,11 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
+.tags {
+  display: flex;
+  flex: 1 200px;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
